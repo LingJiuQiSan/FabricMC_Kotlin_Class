@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "lscm",
+  "version": "${version}",
+  "name": "LSCM Kotlin",
+  "description": "tutorial Mod",
+  "authors": [
+    "LingSan_CanMeng"
+  ],
+  "contact": {
+    "issues": "https://github.com/LingSanCanMeng/FabricMC_Kotlin_Class/issues",
+    "sources": "https://github.com/LingSanCanMeng/FabricMC_Kotlin_Class"
+  },
+  "license": "MIT license",
+  "icon": "assets/lscm/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      {
+        "adapter": "kotlin",
+        "value": "io.github.lingSanCanMeng.Main"
+      }
+    ],
+    "fabric-datagen": [
+      {
+        "adapter": "kotlin",
+        "value": "io.github.lingSanCanMeng.DataGenMain"
+      }
+    ]
+  },
+  "mixins": [
+    "lscm.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${fabricloader}",
+    "fabric-api": ">=${fabric_api}",
+    "fabric-language-kotlin": ">=${fabric_language_kotlin}",
+    "minecraft": ">=${minecraft}",
+    "java": ">=${java}"
+  }
+}

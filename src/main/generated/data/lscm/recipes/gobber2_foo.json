@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "lscm:zinc_block"
+    },
+    "B": {
+      "item": "minecraft:coal"
+    }
+  },
+  "pattern": [
+    "ABB",
+    "BBB",
+    "BBB"
+  ],
+  "result": {
+    "item": "lscm:gobber2_foo"
+  }
+}

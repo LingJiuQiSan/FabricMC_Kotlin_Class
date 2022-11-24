@@ -1,0 +1,15 @@
+{
+  "item.lscm.zinc_ingot": "锌锭",
+  "item.lscm.raw_zinc": "粗锌",
+  "item.lscm.zinc_nugget": "锌粒",
+  "item.lscm.gobber2_foo": "戈伯煤炭",
+  "item.lscm.zinc_ore_detection_rod": "锌矿石探测棒",
+
+  "block.lscm.zinc_block": "锌块",
+  "block.lscm.zinc_ore": "锌矿石",
+  "block.lscm.deepslate_zinc_ore": "深层锌矿石",
+
+  "tooltip.gobber2_foo": "一种很好的燃料",
+  "tooltip.not_shift.gobber2_foo": "按下<Shift>键查看更多信息。",
+  "tooltip.shift.gobber2_foo": "可以燃烧64000tick（3200秒）。"
+}

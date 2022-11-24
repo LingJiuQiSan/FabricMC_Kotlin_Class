@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "lscm:zinc_block",
+    "lscm:zinc_ore",
+    "lscm:deepslate_zinc_ore"
+  ]
+}
