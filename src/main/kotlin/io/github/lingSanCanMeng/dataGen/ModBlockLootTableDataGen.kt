@@ -37,7 +37,7 @@ class ModBlockLootTableDataGen(dataGenerator: FabricDataGenerator?) :
         )
     }
 
-    fun oreDrops(dropWithSilkTouch: Block, drop: Item, min: Float, max: Float): LootTable.Builder {
+    private fun oreDrops(dropWithSilkTouch: Block, drop: Item, min: Float, max: Float): LootTable.Builder {
         return BlockLootTableGenerator.dropsWithSilkTouch(
             dropWithSilkTouch,
             (BlockLootTableGenerator.applyExplosionDecay(
