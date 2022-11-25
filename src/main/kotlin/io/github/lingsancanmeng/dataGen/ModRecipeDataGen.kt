@@ -1,7 +1,7 @@
-package io.github.lingSanCanMeng.dataGen
+package io.github.lingsancanmeng.dataGen
 
-import io.github.lingSanCanMeng.blocks.ModBlocksMain
-import io.github.lingSanCanMeng.item.ModItemsMain
+import io.github.lingsancanmeng.blocks.ModBlocksMain
+import io.github.lingsancanmeng.item.ModItemsMain
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider
 import net.minecraft.data.server.recipe.RecipeJsonProvider

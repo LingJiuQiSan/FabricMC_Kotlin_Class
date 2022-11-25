@@ -1,7 +1,7 @@
-package io.github.lingSanCanMeng.itemGroups
+package io.github.lingsancanmeng.itemgroups
 
-import io.github.lingSanCanMeng.Main
-import io.github.lingSanCanMeng.item.ModItemsMain
+import io.github.lingsancanmeng.Main
+import io.github.lingsancanmeng.item.ModItemsMain
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder
 import net.minecraft.item.ItemGroup
 import net.minecraft.item.ItemStack

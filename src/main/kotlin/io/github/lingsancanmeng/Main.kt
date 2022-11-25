@@ -1,8 +1,8 @@
-package io.github.lingSanCanMeng
+package io.github.lingsancanmeng
 
-import io.github.lingSanCanMeng.blocks.ModBlocksMain
-import io.github.lingSanCanMeng.item.ModItemsFuelRegistry
-import io.github.lingSanCanMeng.item.ModItemsMain
+import io.github.lingsancanmeng.blocks.ModBlocksMain
+import io.github.lingsancanmeng.item.ModItemsFuelRegistry
+import io.github.lingsancanmeng.item.ModItemsMain
 import net.fabricmc.api.ModInitializer
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory

@@ -1,6 +1,6 @@
-package io.github.lingSanCanMeng.item.advanced
+package io.github.lingsancanmeng.item.advanced
 
-import io.github.lingSanCanMeng.blocks.ModBlocksMain
+import io.github.lingsancanmeng.blocks.ModBlocksMain
 import net.minecraft.client.item.TooltipContext
 import net.minecraft.item.ItemStack
 import net.minecraft.item.ItemUsageContext

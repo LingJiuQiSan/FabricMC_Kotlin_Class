@@ -1,7 +1,8 @@
-package io.github.lingSanCanMeng.blocks
+package io.github.lingsancanmeng.blocks
 
-import io.github.lingSanCanMeng.Main
-import io.github.lingSanCanMeng.itemGroups.ModItemGroupsMain
+import io.github.lingsancanmeng.Main
+import io.github.lingsancanmeng.blocks.advanced.NuclearBlock
+import io.github.lingsancanmeng.itemgroups.ModItemGroupsMain
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings
 import net.fabricmc.fabric.api.`object`.builder.v1.block.FabricBlockSettings
 import net.minecraft.block.Block
@@ -31,6 +32,10 @@ object ModBlocksMain {
             FabricBlockSettings.of(Material.STONE).requiresTool().strength(4f).sounds(BlockSoundGroup.DEEPSLATE),
             UniformIntProvider.create(2,3)
         )
+    )
+    val NUCLEAR_CUBE = registerBlock(
+        "nuclear_cube",
+        NuclearBlock(FabricBlockSettings.of(Material.METAL))
     )
 
     private fun registerBlock(blockName: String, block: Block): Block {

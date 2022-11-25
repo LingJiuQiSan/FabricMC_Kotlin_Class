@@ -1,4 +1,4 @@
-package io.github.lingSanCanMeng.item
+package io.github.lingsancanmeng.item
 
 import net.fabricmc.fabric.api.registry.FuelRegistry
 

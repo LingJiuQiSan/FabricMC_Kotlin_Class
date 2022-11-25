@@ -18,13 +18,13 @@
     "main": [
       {
         "adapter": "kotlin",
-        "value": "io.github.lingSanCanMeng.Main"
+        "value": "io.github.lingsancanmeng.Main"
       }
     ],
     "fabric-datagen": [
       {
         "adapter": "kotlin",
-        "value": "io.github.lingSanCanMeng.DataGenMain"
+        "value": "io.github.lingsancanmeng.DataGenMain"
       }
     ]
   },

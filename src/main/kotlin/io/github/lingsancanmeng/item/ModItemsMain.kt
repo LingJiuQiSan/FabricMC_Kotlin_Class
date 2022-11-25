@@ -1,9 +1,9 @@
-package io.github.lingSanCanMeng.item
+package io.github.lingsancanmeng.item
 
-import io.github.lingSanCanMeng.Main
-import io.github.lingSanCanMeng.item.advanced.Gobber2foo
-import io.github.lingSanCanMeng.item.advanced.ZincOreDetectionRod
-import io.github.lingSanCanMeng.itemGroups.ModItemGroupsMain
+import io.github.lingsancanmeng.Main
+import io.github.lingsancanmeng.item.advanced.Gobber2foo
+import io.github.lingsancanmeng.item.advanced.ZincOreDetectionRod
+import io.github.lingsancanmeng.itemgroups.ModItemGroupsMain
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings
 import net.minecraft.item.Item
 import net.minecraft.util.Identifier

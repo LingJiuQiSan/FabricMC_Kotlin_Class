@@ -1,7 +1,7 @@
-package io.github.lingSanCanMeng.dataGen
+package io.github.lingsancanmeng.dataGen
 
-import io.github.lingSanCanMeng.blocks.ModBlocksMain
-import io.github.lingSanCanMeng.item.ModItemsMain
+import io.github.lingsancanmeng.blocks.ModBlocksMain
+import io.github.lingsancanmeng.item.ModItemsMain
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider
 import net.minecraft.data.client.BlockStateModelGenerator
@@ -13,6 +13,7 @@ class ModModelDataGen(dataGenerator: FabricDataGenerator?) : FabricModelProvider
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocksMain.ZINC_BLOCK)
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocksMain.ZINC_ORE)
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocksMain.DEEPSLATE_ZINC_ORE)
+        blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocksMain.NUCLEAR_CUBE)
     }
 
     override fun generateItemModels(itemModelGenerator: ItemModelGenerator) {

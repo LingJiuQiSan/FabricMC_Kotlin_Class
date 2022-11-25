@@ -1,9 +1,9 @@
-package io.github.lingSanCanMeng
+package io.github.lingsancanmeng
 
-import io.github.lingSanCanMeng.dataGen.ModBlockLootTableDataGen
-import io.github.lingSanCanMeng.dataGen.ModBlockTagDataGen
-import io.github.lingSanCanMeng.dataGen.ModModelDataGen
-import io.github.lingSanCanMeng.dataGen.ModRecipeDataGen
+import io.github.lingsancanmeng.dataGen.ModBlockLootTableDataGen
+import io.github.lingsancanmeng.dataGen.ModBlockTagDataGen
+import io.github.lingsancanmeng.dataGen.ModModelDataGen
+import io.github.lingsancanmeng.dataGen.ModRecipeDataGen
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator
 

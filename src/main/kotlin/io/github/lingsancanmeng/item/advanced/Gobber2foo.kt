@@ -1,4 +1,4 @@
-package io.github.lingSanCanMeng.item.advanced
+package io.github.lingsancanmeng.item.advanced
 
 import net.minecraft.client.gui.screen.Screen
 import net.minecraft.client.item.TooltipContext
