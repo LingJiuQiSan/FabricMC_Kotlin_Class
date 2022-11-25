@@ -31,10 +31,10 @@ object ModItemsMain {
         ZincOreDetectionRod(FabricItemSettings().group(ModItemGroupsMain.LSCM).maxCount(1).maxDamage(100))
     )
 
-    private fun registerItem(itemname: String, item: Item): Item {
+    private fun registerItem(itemName: String, item: Item): Item {
         return Registry.register(
             Registry.ITEM,
-            Identifier(Main.MOD_ID, itemname),
+            Identifier(Main.MOD_ID, itemName),
             item
         )
     }

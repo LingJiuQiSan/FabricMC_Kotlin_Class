@@ -1,18 +1,18 @@
-// 1.19.2	2022-11-25T17:36:12.5182602	Models
-f1f49d0bd3e00a147c097219468400fbda26b810 assets\lscm\models\item\deepslate_zinc_ore.json
+// 1.19.2	2022-11-26T05:40:58.471401	Models
+dccfe8631b72e6791d5de543afbaac14c811e347 assets\lscm\models\item\zinc_ore.json
+138ff3ee484036e638155d1765edfdc7461fb3c9 assets\lscm\models\item\zinc_ore_detection_rod.json
 1a9e2d5ce136160bce7488b4994a6b8927c2d6a0 assets\lscm\blockstates\deepslate_zinc_ore.json
-20b7d9755e550cee1ed72f2e9492956284f4fc62 assets\lscm\blockstates\zinc_ore.json
-21282a6998f273596fbfaae423047c8f42eb343f assets\lscm\blockstates\nuclear_cube.json
-359591cabc68b03ed049b5e16876341a5cadc108 assets\lscm\models\block\deepslate_zinc_ore.json
-b9782b9ff27db6ff90cb98988d205a3f0b9608b2 assets\lscm\models\item\zinc_block.json
 f6b7c71aec1941a444916e684327a7be0725e491 assets\lscm\blockstates\zinc_block.json
+20b7d9755e550cee1ed72f2e9492956284f4fc62 assets\lscm\blockstates\zinc_ore.json
+f1f49d0bd3e00a147c097219468400fbda26b810 assets\lscm\models\item\deepslate_zinc_ore.json
+21282a6998f273596fbfaae423047c8f42eb343f assets\lscm\blockstates\nuclear_cube.json
+68a6e5284be390b1ecb15963aa58e06a61ed7b30 assets\lscm\models\item\nuclear_cube.json
+359591cabc68b03ed049b5e16876341a5cadc108 assets\lscm\models\block\deepslate_zinc_ore.json
 2a7d4390d9db585e99868c8144da4e851501870f assets\lscm\models\block\zinc_ore.json
+7ee39221433a761e60d66ac398a57e5f1db54eb5 assets\lscm\models\item\gobber2_foo.json
+a7e74a82be94259c32cab9cd5393e55d025d97fb assets\lscm\models\item\zinc_ingot.json
 295a46cabe5e6632211a8ac70da72aa5b39c104f assets\lscm\models\item\zinc_nugget.json
 deef9536251c10f5c1bf554e4e8474c60c37aae0 assets\lscm\models\block\zinc_block.json
-138ff3ee484036e638155d1765edfdc7461fb3c9 assets\lscm\models\item\zinc_ore_detection_rod.json
-68a6e5284be390b1ecb15963aa58e06a61ed7b30 assets\lscm\models\item\nuclear_cube.json
-b88f57e2f05fdaca0d6cdbf2aceb1fe6b9110e03 assets\lscm\models\item\raw_zinc.json
-dccfe8631b72e6791d5de543afbaac14c811e347 assets\lscm\models\item\zinc_ore.json
-a7e74a82be94259c32cab9cd5393e55d025d97fb assets\lscm\models\item\zinc_ingot.json
-7ee39221433a761e60d66ac398a57e5f1db54eb5 assets\lscm\models\item\gobber2_foo.json
+b9782b9ff27db6ff90cb98988d205a3f0b9608b2 assets\lscm\models\item\zinc_block.json
 282bedfcdc76a698fde04d868562179dedcae8ef assets\lscm\models\block\nuclear_cube.json
+b88f57e2f05fdaca0d6cdbf2aceb1fe6b9110e03 assets\lscm\models\item\raw_zinc.json
