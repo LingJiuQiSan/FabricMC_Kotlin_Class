@@ -7,7 +7,6 @@ import io.github.lingsancanmeng.dataGen.ModRecipeDataGen
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator
 
-@Suppress("unused")
 object DataGenMain: DataGeneratorEntrypoint {
     override fun onInitializeDataGenerator(fabricDataGenerator: FabricDataGenerator) {
         fabricDataGenerator.addProvider { dataGenerator: FabricDataGenerator? -> ModBlockLootTableDataGen(dataGenerator) }
