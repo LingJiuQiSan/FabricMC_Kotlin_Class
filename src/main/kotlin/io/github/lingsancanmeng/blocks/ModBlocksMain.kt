@@ -2,6 +2,7 @@ package io.github.lingsancanmeng.blocks
 
 import io.github.lingsancanmeng.Main
 import io.github.lingsancanmeng.blocks.advanced.NuclearBlock
+import io.github.lingsancanmeng.blocks.advanced.ZincLamp
 import io.github.lingsancanmeng.itemgroups.ModItemGroupsMain
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings
 import net.fabricmc.fabric.api.`object`.builder.v1.block.FabricBlockSettings
@@ -36,6 +37,10 @@ object ModBlocksMain {
     val NUCLEAR_CUBE = registerBlock(
         "nuclear_cube",
         NuclearBlock(FabricBlockSettings.of(Material.METAL))
+    )
+    val ZINC_LAMP = registerBlock(
+        "zinc_lamp",
+        ZincLamp(FabricBlockSettings.of(Material.METAL))
     )
 
     private fun registerBlock(blockName: String, block: Block): Block {

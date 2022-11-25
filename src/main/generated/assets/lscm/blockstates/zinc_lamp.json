@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "light=false": {
+      "model": "lscm:block/zinc_lamp"
+    },
+    "light=true": {
+      "model": "lscm:block/zinc_lamp_on"
+    }
+  }
+}

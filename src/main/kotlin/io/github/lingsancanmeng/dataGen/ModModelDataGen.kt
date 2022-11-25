@@ -1,12 +1,11 @@
 package io.github.lingsancanmeng.dataGen
 
 import io.github.lingsancanmeng.blocks.ModBlocksMain
+import io.github.lingsancanmeng.blocks.advanced.ZincLamp
 import io.github.lingsancanmeng.item.ModItemsMain
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider
-import net.minecraft.data.client.BlockStateModelGenerator
-import net.minecraft.data.client.ItemModelGenerator
-import net.minecraft.data.client.Models
+import net.minecraft.data.client.*
 
 class ModModelDataGen(dataGenerator: FabricDataGenerator?) : FabricModelProvider(dataGenerator) {
     override fun generateBlockStateModels(blockStateModelGenerator: BlockStateModelGenerator) {
@@ -14,6 +13,12 @@ class ModModelDataGen(dataGenerator: FabricDataGenerator?) : FabricModelProvider
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocksMain.ZINC_ORE)
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocksMain.DEEPSLATE_ZINC_ORE)
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocksMain.NUCLEAR_CUBE)
+        val zincLampID1 = TexturedModel.CUBE_ALL.upload(ModBlocksMain.ZINC_LAMP, blockStateModelGenerator. modelCollector)
+        val zincLampID2 = blockStateModelGenerator.createSubModel(ModBlocksMain.ZINC_LAMP, "_on", Models.CUBE_ALL, TextureMap::all)
+        blockStateModelGenerator.blockStateCollector.accept(
+            VariantsBlockStateSupplier.create(ModBlocksMain.ZINC_LAMP)
+                .coordinate(BlockStateModelGenerator.createBooleanModelMap(ZincLamp.LIGHT, zincLampID2, zincLampID1))
+        )
     }
 
     override fun generateItemModels(itemModelGenerator: ItemModelGenerator) {

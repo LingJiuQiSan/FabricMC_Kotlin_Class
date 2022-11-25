@@ -9,6 +9,7 @@
   "block.lscm.zinc_ore": "锌矿石",
   "block.lscm.deepslate_zinc_ore": "深层锌矿石",
   "block.lscm.nuclear_cube": "核方块",
+  "block.lscm.zinc_lamp": "锌灯",
 
   "tooltip.gobber2_foo": "一种很好的燃料",
   "tooltip.not_shift.gobber2_foo": "按下<Shift>键查看更多信息。",
