@@ -4,11 +4,15 @@
   "item.lscm.zinc_nugget": "Zinc Nugget",
   "item.lscm.gobber2_foo": "Gobber2 Foo",
   "item.lscm.zinc_ore_detection_rod": "Zinc Ore Detection Rod",
+  "item.lscm.eggplant": "Eggplant",
+  "item.lscm.eggplant_seed": "Eggplant Seed",
 
   "block.lscm.zinc_block": "Zinc Block",
   "block.lscm.zinc_ore": "Zinc Ore",
+  "block.lscm.deepslate_zinc_ore": "Deepslate Zinc Ore",
   "block.lscm.nuclear_cube": "Nuclear Cube",
   "block.lscm.zinc_lamp": "Zinc Lamp",
+  "block.lscm.eggplant_crop": "Eggplant Crop",
 
   "itemGroup.lscm.lscm": "lscm",
 

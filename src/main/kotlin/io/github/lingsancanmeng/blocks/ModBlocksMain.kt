@@ -1,12 +1,14 @@
 package io.github.lingsancanmeng.blocks
 
 import io.github.lingsancanmeng.Main
+import io.github.lingsancanmeng.blocks.advanced.EggplantCrop
 import io.github.lingsancanmeng.blocks.advanced.NuclearBlock
 import io.github.lingsancanmeng.blocks.advanced.ZincLamp
 import io.github.lingsancanmeng.itemgroups.ModItemGroupsMain
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings
 import net.fabricmc.fabric.api.`object`.builder.v1.block.FabricBlockSettings
 import net.minecraft.block.Block
+import net.minecraft.block.Blocks
 import net.minecraft.block.Material
 import net.minecraft.block.OreBlock
 import net.minecraft.item.BlockItem
@@ -42,6 +44,18 @@ object ModBlocksMain {
         "zinc_lamp",
         ZincLamp(FabricBlockSettings.of(Material.METAL))
     )
+    val EGGPLANT_CROP = registerBlockWithoutItem(
+        "eggplant_crop",
+        EggplantCrop(FabricBlockSettings.copy(Blocks.WHEAT))
+    )
+
+    private fun registerBlockWithoutItem(blockName: String, block: Block): Block {
+        return Registry.register(
+            Registry.BLOCK,
+            Identifier(Main.MOD_ID, blockName),
+            block
+        )
+    }
 
     private fun registerBlock(blockName: String, block: Block): Block {
         Registry.register(

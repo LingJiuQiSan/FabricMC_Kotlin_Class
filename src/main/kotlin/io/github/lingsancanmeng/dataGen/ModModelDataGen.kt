@@ -27,5 +27,7 @@ class ModModelDataGen(dataGenerator: FabricDataGenerator?) : FabricModelProvider
         itemModelGenerator.register(ModItemsMain.RAW_ZINC, Models.GENERATED)
         itemModelGenerator.register(ModItemsMain.GOBBER2_FOO, Models.GENERATED)
         itemModelGenerator.register(ModItemsMain.ZINC_ORE_DETECTION_ROD, Models.GENERATED)
+        itemModelGenerator.register(ModItemsMain.EGGPLANT, Models.GENERATED)
+        itemModelGenerator.register(ModItemsMain.EGGPLANT_SEED, Models.GENERATED)
     }
 }
