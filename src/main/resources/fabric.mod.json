@@ -21,6 +21,12 @@
         "value": "io.github.lingsancanmeng.Main"
       }
     ],
+    "client": [
+      {
+        "adapter": "kotlin",
+        "value": "io.github.lingsancanmeng.ClientMain"
+      }
+    ],
     "fabric-datagen": [
       {
         "adapter": "kotlin",
