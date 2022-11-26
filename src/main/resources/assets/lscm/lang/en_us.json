@@ -16,6 +16,9 @@
 
   "itemGroup.lscm.lscm": "lscm",
 
+  "entity.minecraft.villager.lscm.zincmaster": "Zinc Master",
+  "entity.minecraft.villager.zincmaster": "Zinc Master",
+
   "tooltip.gobber2_foo": "A great fuel",
   "tooltip.not_shift.gobber2_foo": "Press shift to see more info.",
   "tooltip.shift.gobber2_foo": "Can burn 64000 ticks(3200 seconds)."

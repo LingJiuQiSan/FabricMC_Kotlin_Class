@@ -14,6 +14,9 @@
   "block.lscm.zinc_lamp": "锌灯",
   "block.lscm.eggplant_crop": "茄子作物",
 
+  "entity.minecraft.villager.lscm.zincmaster": "锌商人",
+  "entity.minecraft.villager.zincmaster": "锌商人",
+
   "tooltip.gobber2_foo": "一种很好的燃料",
   "tooltip.not_shift.gobber2_foo": "按下<Shift>键查看更多信息。",
   "tooltip.shift.gobber2_foo": "可以燃烧64000tick（3200秒）。"
