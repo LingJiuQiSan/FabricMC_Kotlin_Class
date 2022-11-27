@@ -22,11 +22,6 @@ object ModPlacedFeaturesMain {
         ModConfiguredFeaturesMain.END_ZINC_ORE,
         modifiersWithCount(5, HeightRangePlacementModifier.uniform(YOffset.getBottom(), YOffset.fixed(256)))
     )
-    val END_OBSIDIAN_ZINC_ORE_PLACED: RegistryEntry<PlacedFeature> = PlacedFeatures.register(
-        "end_obsidian_zinc_ore_placed",
-        ModConfiguredFeaturesMain.END_OBSIDIAN_ZINC_ORE,
-        modifiersWithCount(5, HeightRangePlacementModifier.uniform(YOffset.getBottom(), YOffset.fixed(256)))
-    )
     private fun modifiers(
         countModifier: PlacementModifier,
         heightModifier: PlacementModifier

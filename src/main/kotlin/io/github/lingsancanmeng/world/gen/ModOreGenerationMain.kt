@@ -19,9 +19,5 @@ object ModOreGenerationMain {
             BiomeSelectors.foundInTheEnd(),
             GenerationStep.Feature.UNDERGROUND_ORES, ModPlacedFeaturesMain.END_ZINC_ORE_PLACED.key.get()
         )
-        BiomeModifications.addFeature(
-            BiomeSelectors.foundInTheEnd(),
-            GenerationStep.Feature.UNDERGROUND_ORES, ModPlacedFeaturesMain.END_OBSIDIAN_ZINC_ORE_PLACED.key.get()
-        )
     }
 }
